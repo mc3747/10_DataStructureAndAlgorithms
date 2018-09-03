@@ -29,14 +29,14 @@
 		42746AAF20B4130E00175AF0 /* RankManager7.m in Sources */ = {isa = PBXBuildFile; fileRef = 42746AAE20B4130E00175AF0 /* RankManager7.m */; };
 		42746AB220B4144900175AF0 /* RankManager8.m in Sources */ = {isa = PBXBuildFile; fileRef = 42746AB120B4144900175AF0 /* RankManager8.m */; };
 		42746AB520B4168100175AF0 /* RankManager1.m in Sources */ = {isa = PBXBuildFile; fileRef = 42746AB320B4168000175AF0 /* RankManager1.m */; };
-		42C78500213CE46F0012188E /* DataStructureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C783D4213CE46E0012188E /* DataStructureViewController.m */; };
-		42C78501213CE46F0012188E /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C783D6213CE46E0012188E /* ArrayQueue.m */; };
-		42C78502213CE46F0012188E /* ArrayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C783D7213CE46E0012188E /* ArrayList.m */; };
-		42C78503213CE46F0012188E /* ArrayStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C783D8213CE46E0012188E /* ArrayStack.m */; };
-		42C785BB213CE46F0012188E /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C784F8213CE46F0012188E /* LinkedListStack.m */; };
-		42C785BC213CE46F0012188E /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C784F9213CE46F0012188E /* LinkedList.m */; };
-		42C785BD213CE46F0012188E /* LoopQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C784FC213CE46F0012188E /* LoopQueue.m */; };
-		42C785BE213CE46F0012188E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C784FF213CE46F0012188E /* Person.m */; };
+		42C787A3213CE85F0012188E /* DataStructureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C786D8213CE85F0012188E /* DataStructureViewController.m */; };
+		42C787A4213CE85F0012188E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C786DB213CE85F0012188E /* Person.m */; };
+		42C787A5213CE85F0012188E /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C786DF213CE85F0012188E /* LinkedListStack.m */; };
+		42C787A6213CE85F0012188E /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C786E0213CE85F0012188E /* LinkedList.m */; };
+		42C787A7213CE85F0012188E /* LoopQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C786E3213CE85F0012188E /* LoopQueue.m */; };
+		42C787A8213CE85F0012188E /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C786E5213CE85F0012188E /* ArrayQueue.m */; };
+		42C787A9213CE85F0012188E /* ArrayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C786E6213CE85F0012188E /* ArrayList.m */; };
+		42C787AA213CE85F0012188E /* ArrayStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C786E7213CE85F0012188E /* ArrayStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,22 +102,22 @@
 		42746AB120B4144900175AF0 /* RankManager8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankManager8.m; sourceTree = "<group>"; };
 		42746AB320B4168000175AF0 /* RankManager1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankManager1.m; sourceTree = "<group>"; };
 		42746AB420B4168000175AF0 /* RankManager1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankManager1.h; sourceTree = "<group>"; };
-		42C783D4213CE46E0012188E /* DataStructureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStructureViewController.m; sourceTree = "<group>"; };
-		42C783D6213CE46E0012188E /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
-		42C783D7213CE46E0012188E /* ArrayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayList.m; sourceTree = "<group>"; };
-		42C783D8213CE46E0012188E /* ArrayStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayStack.m; sourceTree = "<group>"; };
-		42C783D9213CE46E0012188E /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQueue.h; sourceTree = "<group>"; };
-		42C783DA213CE46E0012188E /* ArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayList.h; sourceTree = "<group>"; };
-		42C783DB213CE46E0012188E /* ArrayStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
-		42C784F4213CE46F0012188E /* DataStructureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructureViewController.h; sourceTree = "<group>"; };
-		42C784F6213CE46F0012188E /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
-		42C784F7213CE46F0012188E /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
-		42C784F8213CE46F0012188E /* LinkedListStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListStack.m; sourceTree = "<group>"; };
-		42C784F9213CE46F0012188E /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
-		42C784FB213CE46F0012188E /* LoopQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopQueue.h; sourceTree = "<group>"; };
-		42C784FC213CE46F0012188E /* LoopQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopQueue.m; sourceTree = "<group>"; };
-		42C784FE213CE46F0012188E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		42C784FF213CE46F0012188E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		42C786D8213CE85F0012188E /* DataStructureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStructureViewController.m; sourceTree = "<group>"; };
+		42C786DA213CE85F0012188E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		42C786DB213CE85F0012188E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		42C786DD213CE85F0012188E /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
+		42C786DE213CE85F0012188E /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		42C786DF213CE85F0012188E /* LinkedListStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListStack.m; sourceTree = "<group>"; };
+		42C786E0213CE85F0012188E /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		42C786E2213CE85F0012188E /* LoopQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopQueue.h; sourceTree = "<group>"; };
+		42C786E3213CE85F0012188E /* LoopQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopQueue.m; sourceTree = "<group>"; };
+		42C786E5213CE85F0012188E /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
+		42C786E6213CE85F0012188E /* ArrayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayList.m; sourceTree = "<group>"; };
+		42C786E7213CE85F0012188E /* ArrayStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayStack.m; sourceTree = "<group>"; };
+		42C786E8213CE85F0012188E /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQueue.h; sourceTree = "<group>"; };
+		42C786E9213CE85F0012188E /* ArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayList.h; sourceTree = "<group>"; };
+		42C786EA213CE85F0012188E /* ArrayStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
+		42C786EB213CE85F0012188E /* DataStructureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructureViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +170,7 @@
 			children = (
 				42746A7F20B3AAA600175AF0 /* CommonCollectionViewVC.h */,
 				42746A8020B3AAA600175AF0 /* CommonCollectionViewVC.m */,
-				42C783D3213CDD430012188E /* 数据结构 */,
+				42C785BF213CE85E0012188E /* 数据结构 */,
 				42C783D2213CDD180012188E /* 算法 */,
 				42746A8920B3F70B00175AF0 /* DCLog */,
 				42746A4A20B3A89C00175AF0 /* AppDelegate.h */,
@@ -309,67 +309,67 @@
 			path = "算法";
 			sourceTree = "<group>";
 		};
-		42C783D3213CDD430012188E /* 数据结构 */ = {
+		42C785BF213CE85E0012188E /* 数据结构 */ = {
 			isa = PBXGroup;
 			children = (
-				42C784F4213CE46F0012188E /* DataStructureViewController.h */,
-				42C783D4213CE46E0012188E /* DataStructureViewController.m */,
-				42C783D5213CE46E0012188E /* 1，数组 */,
-				42C784F5213CE46F0012188E /* 2，链表 */,
-				42C784FA213CE46F0012188E /* 3，队列 */,
-				42C783DC213CE46E0012188E /* 4，C语言数据结构 */,
-				42C784FD213CE46F0012188E /* Resources */,
+				42C786EB213CE85F0012188E /* DataStructureViewController.h */,
+				42C786D8213CE85F0012188E /* DataStructureViewController.m */,
+				42C786E4213CE85F0012188E /* 1，数组 */,
+				42C786DC213CE85F0012188E /* 2，链表 */,
+				42C786E1213CE85F0012188E /* 3，队列 */,
+				42C785C0213CE85E0012188E /* 4，C语言数据结构 */,
+				42C786D9213CE85F0012188E /* Resources */,
 			);
 			path = "数据结构";
 			sourceTree = "<group>";
 		};
-		42C783D5213CE46E0012188E /* 1，数组 */ = {
-			isa = PBXGroup;
-			children = (
-				42C783D6213CE46E0012188E /* ArrayQueue.m */,
-				42C783D7213CE46E0012188E /* ArrayList.m */,
-				42C783D8213CE46E0012188E /* ArrayStack.m */,
-				42C783D9213CE46E0012188E /* ArrayQueue.h */,
-				42C783DA213CE46E0012188E /* ArrayList.h */,
-				42C783DB213CE46E0012188E /* ArrayStack.h */,
-			);
-			path = "1，数组";
-			sourceTree = "<group>";
-		};
-		42C783DC213CE46E0012188E /* 4，C语言数据结构 */ = {
+		42C785C0213CE85E0012188E /* 4，C语言数据结构 */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = "4，C语言数据结构";
 			sourceTree = "<group>";
 		};
-		42C784F5213CE46F0012188E /* 2，链表 */ = {
+		42C786D9213CE85F0012188E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42C784F6213CE46F0012188E /* LinkedListStack.h */,
-				42C784F7213CE46F0012188E /* LinkedList.h */,
-				42C784F8213CE46F0012188E /* LinkedListStack.m */,
-				42C784F9213CE46F0012188E /* LinkedList.m */,
+				42C786DA213CE85F0012188E /* Person.h */,
+				42C786DB213CE85F0012188E /* Person.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		42C786DC213CE85F0012188E /* 2，链表 */ = {
+			isa = PBXGroup;
+			children = (
+				42C786DD213CE85F0012188E /* LinkedListStack.h */,
+				42C786DE213CE85F0012188E /* LinkedList.h */,
+				42C786DF213CE85F0012188E /* LinkedListStack.m */,
+				42C786E0213CE85F0012188E /* LinkedList.m */,
 			);
 			path = "2，链表";
 			sourceTree = "<group>";
 		};
-		42C784FA213CE46F0012188E /* 3，队列 */ = {
+		42C786E1213CE85F0012188E /* 3，队列 */ = {
 			isa = PBXGroup;
 			children = (
-				42C784FB213CE46F0012188E /* LoopQueue.h */,
-				42C784FC213CE46F0012188E /* LoopQueue.m */,
+				42C786E2213CE85F0012188E /* LoopQueue.h */,
+				42C786E3213CE85F0012188E /* LoopQueue.m */,
 			);
 			path = "3，队列";
 			sourceTree = "<group>";
 		};
-		42C784FD213CE46F0012188E /* Resources */ = {
+		42C786E4213CE85F0012188E /* 1，数组 */ = {
 			isa = PBXGroup;
 			children = (
-				42C784FE213CE46F0012188E /* Person.h */,
-				42C784FF213CE46F0012188E /* Person.m */,
+				42C786E5213CE85F0012188E /* ArrayQueue.m */,
+				42C786E6213CE85F0012188E /* ArrayList.m */,
+				42C786E7213CE85F0012188E /* ArrayStack.m */,
+				42C786E8213CE85F0012188E /* ArrayQueue.h */,
+				42C786E9213CE85F0012188E /* ArrayList.h */,
+				42C786EA213CE85F0012188E /* ArrayStack.h */,
 			);
-			path = Resources;
+			path = "1，数组";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,29 +504,29 @@
 			files = (
 				42746A4F20B3A89C00175AF0 /* ViewController.m in Sources */,
 				42746A5A20B3A89E00175AF0 /* main.m in Sources */,
+				42C787A5213CE85F0012188E /* LinkedListStack.m in Sources */,
+				42C787A3213CE85F0012188E /* DataStructureViewController.m in Sources */,
+				42C787A9213CE85F0012188E /* ArrayList.m in Sources */,
 				42746A8120B3AAA600175AF0 /* CommonCollectionViewVC.m in Sources */,
 				42746AA620B411D100175AF0 /* RankManager4.m in Sources */,
 				42746A8520B3EAC200175AF0 /* CommonRankVC.m in Sources */,
-				42C78503213CE46F0012188E /* ArrayStack.m in Sources */,
 				42746AA020B40E2E00175AF0 /* RankManager2.m in Sources */,
+				42C787A6213CE85F0012188E /* LinkedList.m in Sources */,
 				42746A4C20B3A89C00175AF0 /* AppDelegate.m in Sources */,
 				42746AAF20B4130E00175AF0 /* RankManager7.m in Sources */,
-				42C78501213CE46F0012188E /* ArrayQueue.m in Sources */,
 				42746A9020B3F70B00175AF0 /* UIWindow+DCLog.m in Sources */,
-				42C785BD213CE46F0012188E /* LoopQueue.m in Sources */,
-				42C785BE213CE46F0012188E /* Person.m in Sources */,
 				42746A7E20B3AA1200175AF0 /* CommonTableViewVC.m in Sources */,
 				42746AB220B4144900175AF0 /* RankManager8.m in Sources */,
 				42746A9220B3F70B00175AF0 /* DCLog.m in Sources */,
-				42C78502213CE46F0012188E /* ArrayList.m in Sources */,
-				42C785BB213CE46F0012188E /* LinkedListStack.m in Sources */,
-				42C78500213CE46F0012188E /* DataStructureViewController.m in Sources */,
 				42746A9120B3F70B00175AF0 /* DCLogView.m in Sources */,
+				42C787A4213CE85F0012188E /* Person.m in Sources */,
 				42746AB520B4168100175AF0 /* RankManager1.m in Sources */,
 				42746AA320B40F6B00175AF0 /* RankManager3.m in Sources */,
+				42C787A7213CE85F0012188E /* LoopQueue.m in Sources */,
+				42C787AA213CE85F0012188E /* ArrayStack.m in Sources */,
 				42746AA920B4123D00175AF0 /* RankManager5.m in Sources */,
 				42746AAC20B412AD00175AF0 /* RankManager6.m in Sources */,
-				42C785BC213CE46F0012188E /* LinkedList.m in Sources */,
+				42C787A8213CE85F0012188E /* ArrayQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
