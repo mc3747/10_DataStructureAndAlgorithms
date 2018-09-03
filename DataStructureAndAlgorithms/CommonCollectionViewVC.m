@@ -8,6 +8,8 @@
 
 #import "CommonCollectionViewVC.h"
 #import "CommonTableViewVC.h"
+#import "DataStructureViewController.h"
+
 
 @interface CommonCollectionViewVC ()<UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property (nonatomic, strong) UICollectionView *collectionView;
@@ -64,12 +66,19 @@ static NSString * const reuseIdentifier = @"CommonCollectionViewCell";
 #pragma mark <UICollectionViewDelegate>
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
     if (indexPath.row == 0) {
+        DataStructureViewController *vc = [[DataStructureViewController alloc] init];
+         [self.navigationController pushViewController:vc animated:YES];
+        
+    }else if (indexPath.row == 1) {
+        
         CommonTableViewVC *vc = [[CommonTableViewVC alloc] init];
         vc.titleString = _titleArray[indexPath.row];
         vc.subtitleArray = @[@"1_冒泡排序",@"2_选择排序",@"3_快速排序",@"4_插入排序",@"5_希尔排序",@"6_归并排序",@"7_基数排序",@"8_堆排序"];
         [self.navigationController pushViewController:vc animated:YES];
-    }
+    };
+    
 }
 #pragma mark -  懒加载
 - (UICollectionView *)collectionView

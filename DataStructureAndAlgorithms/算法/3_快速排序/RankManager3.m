@@ -14,8 +14,8 @@
 {
     if (left < right) {
         NSInteger temp = [self getMiddleIndex:arr leftIndex:left rightIndex:right];
-        [self thirdRankWithOCAscend:arr leftIndex:left rightIndex:temp - 1];
-        [self thirdRankWithOCAscend:arr leftIndex:temp + 1 rightIndex:right];
+        [RankManager3 threeRankWithOCAscend:arr leftIndex:left rightIndex:temp - 1];
+        [RankManager3 threeRankWithOCAscend:arr leftIndex:temp + 1 rightIndex:right];
     }
     NSLog(@"快速升序排序结果：%@", arr);
 }

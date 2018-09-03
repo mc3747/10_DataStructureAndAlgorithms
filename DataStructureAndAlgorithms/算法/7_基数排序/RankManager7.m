@@ -14,7 +14,7 @@
 {
     NSMutableArray *buckt = [self createBucket];
     NSNumber *maxnumber = [self listMaxItem:ascendingArr];
-    NSInteger maxLength = numberLength(maxnumber);
+    NSInteger maxLength = numberLength7(maxnumber);
     for (int digit = 1; digit <= maxLength; digit++) {
         // 入桶
         for (NSNumber *item in ascendingArr) {
@@ -54,15 +54,16 @@
     return maxNumber;
 }
 
-NSInteger numberLength(NSNumber *number) {
+NSInteger numberLength7(NSNumber *number) {
     NSString *string = [NSString stringWithFormat:@"%ld", (long)[number integerValue]];
     return string.length;
 }
+
 + (NSInteger)fetchBaseNumber:(NSNumber *)number digit:(NSInteger)digit {
-    if (digit > 0 && digit <= numberLength(number)) {
+    if (digit > 0 && digit <= numberLength7(number)) {
         NSMutableArray *numbersArray = [NSMutableArray array];
         NSString *string = [NSString stringWithFormat:@"%ld", [number integerValue]];
-        for (int index = 0; index < numberLength(number); index++) {
+        for (int index = 0; index < numberLength7(number); index++) {
             [numbersArray addObject:[string substringWithRange:NSMakeRange(index, 1)]];
         }
         NSString *str = numbersArray[numbersArray.count - digit];
