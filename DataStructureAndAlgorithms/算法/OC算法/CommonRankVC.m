@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [RandColor colorWithAlphaComponent:0.5];
+    self.view.backgroundColor = MCColorLightGreen;
     [self addStackView];
     
     NSMutableArray *array = [NSMutableArray arrayWithObjects:@12,@15.8,@19,@10,@14,nil];

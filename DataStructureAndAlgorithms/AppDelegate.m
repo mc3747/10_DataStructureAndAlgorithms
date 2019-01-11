@@ -20,7 +20,7 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     CommonCollectionViewVC *vc = [[CommonCollectionViewVC alloc] init];
-    vc.titleArray = @[@"数据结构",@"算法"];
+    vc.titleArray = @[@"C语言数据结构",@"C语言算法",@"OC数据结构",@"OC算法",@"C++数据结构",@"C++算法"];
     UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = navVC;
     [self.window makeKeyAndVisible];

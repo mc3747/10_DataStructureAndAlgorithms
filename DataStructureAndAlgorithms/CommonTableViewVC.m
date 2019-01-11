@@ -85,11 +85,29 @@
 }
 
 #pragma mark - 跳转到webview
-- (void)goToVC:(NSString *)subtitleString And:(NSIndexPath *)indexPath {
-    if (indexPath.row == 0) {
-        CommonRankVC *vc = [[CommonRankVC alloc]init];
-        vc.title = subtitleString;
-        [self.navigationController pushViewController:vc animated:YES];
+- (void)goToVC:(NSString *)subtitleString And:(NSIndexPath *)indexPath{
+    switch (_classType) {
+        case ClassTypeDataSouceC:
+            
+            break;
+            
+        case ClassTypeDataSouceOC:
+            
+            break;
+            
+        case ClassTypeAlgorithemC:
+            
+            break;
+            
+        case ClassTypeAlgorithemOC:
+        { CommonRankVC *vc = [[CommonRankVC alloc]init];
+            vc.title = subtitleString;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
+        default:
+            break;
     }
     
 }
@@ -104,7 +122,6 @@
         _tableView.backgroundColor = COMMON_GREY_WHITE_COLOR;
         _tableView.separatorStyle = UITableViewCellSelectionStyleGray;   // 灰色分割线
         _tableView.separatorColor = COMMON_LIGHT_GREY_COLOR;             // 分割线的颜色
-        
     }
     
     return _tableView;

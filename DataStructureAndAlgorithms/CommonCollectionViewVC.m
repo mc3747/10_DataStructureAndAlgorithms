@@ -10,7 +10,6 @@
 #import "CommonTableViewVC.h"
 #import "DataStructureViewController.h"
 
-
 @interface CommonCollectionViewVC ()<UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property (nonatomic, strong) UICollectionView *collectionView;
 @end
@@ -24,10 +23,9 @@ static NSString * const reuseIdentifier = @"CommonCollectionViewCell";
     [self.view addSubview:self.collectionView];
 }
 
-- (UIColor *)getRandomColor {
-    NSArray *colorArray = @[MCColorLightGray,MCColorLightBlack,MCColorLightYellow,MCColorLightBlue,MCColorLightOrange,MCColorLightGreen,MCColorLightRed];
-    int i = arc4random() % (colorArray.count);
-    return colorArray[i];
+- (NSArray *)getColorArray {
+    NSArray *colorArray = @[MCColorLightGray,MCColorLightYellow,MCColorLightBlue,MCColorLightOrange,MCColorLightGreen,MCColorLightRed];
+    return colorArray;
 }
 
 #pragma mark <UICollectionViewDataSource>
@@ -40,11 +38,11 @@ static NSString * const reuseIdentifier = @"CommonCollectionViewCell";
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    cell.backgroundColor = [self getRandomColor];
+    cell.backgroundColor = [self getColorArray][indexPath.row];
     
-//    UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(cell.frame.origin.x, cell.frame.origin.y, cell.frame.size.width, cell.frame.size.height)];
-     UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(10,10,100,50)];
+     UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0,(cell.bounds.size.height - 50) * 0.5f,cell.bounds.size.width,50)];
     textLabel.text = _titleArray[indexPath.row];
+    textLabel.textAlignment = NSTextAlignmentCenter;
     textLabel.textColor = COMMON_BLACK_COLOR;
     
     [cell addSubview:textLabel];
@@ -56,8 +54,9 @@ static NSString * const reuseIdentifier = @"CommonCollectionViewCell";
 //返回每个cell的大小
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    return CGSizeMake(self.view.frame.size.width/2 - 20, self.view.frame.size.height/3 - 10);
+    return CGSizeMake(self.view.frame.size.width/2 - 20, self.view.frame.size.height/4 - 10);
 }
+
 //设置每一个Cell的垂直和水平间距
 -(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
     return UIEdgeInsetsMake(10, 5, 10, 5);
@@ -67,18 +66,38 @@ static NSString * const reuseIdentifier = @"CommonCollectionViewCell";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    if (indexPath.row == 0) {
+    if (indexPath.row == 2) {
         DataStructureViewController *vc = [[DataStructureViewController alloc] init];
          [self.navigationController pushViewController:vc animated:YES];
         
-    }else if (indexPath.row == 1) {
-        
+    }else if (indexPath.row == 3) {
         CommonTableViewVC *vc = [[CommonTableViewVC alloc] init];
+        vc.classType = ClassTypeAlgorithemOC;
         vc.titleString = _titleArray[indexPath.row];
         vc.subtitleArray = @[@"1_冒泡排序",@"2_选择排序",@"3_快速排序",@"4_插入排序",@"5_希尔排序",@"6_归并排序",@"7_基数排序",@"8_堆排序"];
         [self.navigationController pushViewController:vc animated:YES];
+    }else {
+        [self showAlertView];
     };
     
+}
+- (void)showAlertView {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"🍎注意🍎" message:@"跳转到代码处的workSpace查看" preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *action1 = [UIAlertAction actionWithTitle:@"好✅" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"点击了按钮1，进入按钮1的事件");
+        //textFields是一个数组，获取所输入的字符串
+        NSLog(@"%@",alert.textFields.lastObject.text);
+    }];
+    
+    UIAlertAction *action2 = [UIAlertAction actionWithTitle:@"滚❎" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"点击了取消");
+    }];
+    
+    [alert addAction:action1];
+    [alert addAction:action2];
+    
+    [self presentViewController:alert animated:YES completion:nil];
 }
 #pragma mark -  懒加载
 - (UICollectionView *)collectionView
