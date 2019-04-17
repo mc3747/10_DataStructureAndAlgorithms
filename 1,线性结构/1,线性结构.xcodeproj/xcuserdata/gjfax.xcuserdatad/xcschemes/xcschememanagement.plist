@@ -12,7 +12,7 @@
 		<key>0,时间复杂度和空间复杂度.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<key>1,线性结构.xcscheme</key>
 		<dict>
@@ -32,7 +32,7 @@
 		<key>2，线性表的顺序实现_顺序表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>3，线性表的链式实现_单链表.xcscheme</key>
 		<dict>
@@ -42,7 +42,7 @@
 		<key>3，线性表的链式实现_单链表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 		<key>4，线性表的链式实现_双链表.xcscheme</key>
 		<dict>
@@ -52,7 +52,7 @@
 		<key>4，线性表的链式实现_双链表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>5，线性表的链式实现_循环链表.xcscheme</key>
 		<dict>
@@ -62,7 +62,7 @@
 		<key>5，线性表的链式实现_循环链表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>5</integer>
 		</dict>
 		<key>6，线性表的总结与应用.xcscheme</key>
 		<dict>
@@ -72,7 +72,7 @@
 		<key>6，线性表的总结与应用.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>6</integer>
 		</dict>
 	</dict>
 </dict>
