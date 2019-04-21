@@ -9,10 +9,14 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger,ClassType) {
-    ClassTypeDataSouceC = 0,
+    ClassTypeDataSouce = 0,
+    ClassTypeAlgorithem,
     ClassTypeDataSouceOC,
+    ClassTypeAlgorithemOC,
+    ClassTypeDataSouceC ,
     ClassTypeAlgorithemC,
-    ClassTypeAlgorithemOC
+    ClassTypeDataSouceCPlus,
+    ClassTypeAlgorithemCPlus
     
 };
 @interface CommonTableViewVC : UIViewController

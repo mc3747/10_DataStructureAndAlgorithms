@@ -9,6 +9,8 @@
 #import "CommonCollectionViewVC.h"
 #import "CommonTableViewVC.h"
 #import "DataStructureViewController.h"
+#import "GeneralDataStructureVC.h"
+#import "GeneralAlgorithmVC.h"
 
 @interface CommonCollectionViewVC ()<UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property (nonatomic, strong) UICollectionView *collectionView;
@@ -24,7 +26,7 @@ static NSString * const reuseIdentifier = @"CommonCollectionViewCell";
 }
 
 - (NSArray *)getColorArray {
-    NSArray *colorArray = @[MCColorLightGray,MCColorLightYellow,MCColorLightBlue,MCColorLightOrange,MCColorLightGreen,MCColorLightRed];
+    NSArray *colorArray = @[MCColorLightGreen,MCColorLightGreen,MCColorLightYellow,MCColorLightYellow,MCColorLightOrange,MCColorLightOrange,MCColorLightRed,MCColorLightRed];
     return colorArray;
 }
 
@@ -66,7 +68,15 @@ static NSString * const reuseIdentifier = @"CommonCollectionViewCell";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    if (indexPath.row == 2) {
+    if(indexPath.row == 0 ){
+        GeneralDataStructureVC *vc = [[GeneralDataStructureVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    } else if(indexPath.row == 1){
+        GeneralAlgorithmVC *vc = [[GeneralAlgorithmVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }else if (indexPath.row == 2) {
         DataStructureViewController *vc = [[DataStructureViewController alloc] init];
          [self.navigationController pushViewController:vc animated:YES];
         

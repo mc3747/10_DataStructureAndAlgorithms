@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4269D593226C577C007E7CA2 /* GeneralDataStructureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4269D592226C577C007E7CA2 /* GeneralDataStructureVC.m */; };
+		4269D596226C5CC4007E7CA2 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4269D595226C5CC4007E7CA2 /* CommonViewController.m */; };
+		4269D59F226C5D9E007E7CA2 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4269D59B226C5D9E007E7CA2 /* UIView+LayoutMethods.m */; };
+		4269D5A3226C6189007E7CA2 /* GeneralAlgorithmVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4269D5A2226C6189007E7CA2 /* GeneralAlgorithmVC.m */; };
 		42746A4C20B3A89C00175AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42746A4B20B3A89C00175AF0 /* AppDelegate.m */; };
 		42746A4F20B3A89C00175AF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42746A4E20B3A89C00175AF0 /* ViewController.m */; };
 		42746A5220B3A89C00175AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42746A5020B3A89C00175AF0 /* Main.storyboard */; };
@@ -57,6 +61,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4269D591226C577C007E7CA2 /* GeneralDataStructureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralDataStructureVC.h; sourceTree = "<group>"; };
+		4269D592226C577C007E7CA2 /* GeneralDataStructureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralDataStructureVC.m; sourceTree = "<group>"; };
+		4269D594226C5CC4007E7CA2 /* CommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		4269D595226C5CC4007E7CA2 /* CommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		4269D59B226C5D9E007E7CA2 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		4269D59D226C5D9E007E7CA2 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		4269D5A1226C6189007E7CA2 /* GeneralAlgorithmVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralAlgorithmVC.h; sourceTree = "<group>"; };
+		4269D5A2226C6189007E7CA2 /* GeneralAlgorithmVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralAlgorithmVC.m; sourceTree = "<group>"; };
 		42746A4720B3A89C00175AF0 /* DataStructureAndAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructureAndAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42746A4A20B3A89C00175AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42746A4B20B3A89C00175AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -157,13 +169,6 @@
 			path = "OC数据结构";
 			sourceTree = "<group>";
 		};
-		4215B29121E8707C00FB6F84 /* C语言算法 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "C语言算法";
-			sourceTree = "<group>";
-		};
 		4215B29221E8708B00FB6F84 /* OC算法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,7 +183,62 @@
 				42746A9C20B40D0F00175AF0 /* 7_基数排序 */,
 				42746A9D20B40D1F00175AF0 /* 8_堆排序 */,
 			);
-			path = "OC算法";
+			name = "OC算法";
+			path = "../算法/OC算法";
+			sourceTree = "<group>";
+		};
+		4269D58E226C533B007E7CA2 /* 1,数据结构和算法分析 */ = {
+			isa = PBXGroup;
+			children = (
+				4269D591226C577C007E7CA2 /* GeneralDataStructureVC.h */,
+				4269D592226C577C007E7CA2 /* GeneralDataStructureVC.m */,
+				4269D5A1226C6189007E7CA2 /* GeneralAlgorithmVC.h */,
+				4269D5A2226C6189007E7CA2 /* GeneralAlgorithmVC.m */,
+			);
+			path = "1,数据结构和算法分析";
+			sourceTree = "<group>";
+		};
+		4269D58F226C5358007E7CA2 /* 3,C语言数据结构和算法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3,C语言数据结构和算法";
+			sourceTree = "<group>";
+		};
+		4269D590226C5367007E7CA2 /* 4,C++数据结构和算法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4,C++数据结构和算法";
+			sourceTree = "<group>";
+		};
+		4269D597226C5D7C007E7CA2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4269D594226C5CC4007E7CA2 /* CommonViewController.h */,
+				4269D595226C5CC4007E7CA2 /* CommonViewController.m */,
+				42746A7C20B3AA1100175AF0 /* CommonTableViewVC.h */,
+				42746A7D20B3AA1100175AF0 /* CommonTableViewVC.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4269D598226C5D89007E7CA2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4269D599226C5D9E007E7CA2 /* HandyFrame */,
+				42746A8920B3F70B00175AF0 /* DCLog */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4269D599226C5D9E007E7CA2 /* HandyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				4269D59B226C5D9E007E7CA2 /* UIView+LayoutMethods.m */,
+				4269D59D226C5D9E007E7CA2 /* UIView+LayoutMethods.h */,
+			);
+			path = HandyFrame;
 			sourceTree = "<group>";
 		};
 		42746A3E20B3A89C00175AF0 = {
@@ -204,15 +264,16 @@
 		42746A4920B3A89C00175AF0 /* DataStructureAndAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
-				42746A7F20B3AAA600175AF0 /* CommonCollectionViewVC.h */,
-				42746A8020B3AAA600175AF0 /* CommonCollectionViewVC.m */,
-				42746A7C20B3AA1100175AF0 /* CommonTableViewVC.h */,
-				42746A7D20B3AA1100175AF0 /* CommonTableViewVC.m */,
-				42C785BF213CE85E0012188E /* 数据结构 */,
-				42C783D2213CDD180012188E /* 算法 */,
-				42746A8920B3F70B00175AF0 /* DCLog */,
+				4269D598226C5D89007E7CA2 /* Sources */,
+				4269D597226C5D7C007E7CA2 /* Common */,
+				4269D58E226C533B007E7CA2 /* 1,数据结构和算法分析 */,
+				42C785BF213CE85E0012188E /* 2,OC数据结构和算法 */,
+				4269D590226C5367007E7CA2 /* 4,C++数据结构和算法 */,
+				4269D58F226C5358007E7CA2 /* 3,C语言数据结构和算法 */,
 				42746A4A20B3A89C00175AF0 /* AppDelegate.h */,
 				42746A4B20B3A89C00175AF0 /* AppDelegate.m */,
+				42746A7F20B3AAA600175AF0 /* CommonCollectionViewVC.h */,
+				42746A8020B3AAA600175AF0 /* CommonCollectionViewVC.m */,
 				42746A4D20B3A89C00175AF0 /* ViewController.h */,
 				42746A4E20B3A89C00175AF0 /* ViewController.m */,
 				42746A5020B3A89C00175AF0 /* Main.storyboard */,
@@ -328,30 +389,14 @@
 			path = "8_堆排序";
 			sourceTree = "<group>";
 		};
-		42C783D2213CDD180012188E /* 算法 */ = {
+		42C785BF213CE85E0012188E /* 2,OC数据结构和算法 */ = {
 			isa = PBXGroup;
 			children = (
-				4215B29121E8707C00FB6F84 /* C语言算法 */,
-				4215B29221E8708B00FB6F84 /* OC算法 */,
-			);
-			path = "算法";
-			sourceTree = "<group>";
-		};
-		42C785BF213CE85E0012188E /* 数据结构 */ = {
-			isa = PBXGroup;
-			children = (
-				42C785C0213CE85E0012188E /* C语言数据结构 */,
 				4215B29021E86FEA00FB6F84 /* OC数据结构 */,
+				4215B29221E8708B00FB6F84 /* OC算法 */,
 				42C786D9213CE85F0012188E /* Resources */,
 			);
-			path = "数据结构";
-			sourceTree = "<group>";
-		};
-		42C785C0213CE85E0012188E /* C语言数据结构 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "C语言数据结构";
+			path = "2,OC数据结构和算法";
 			sourceTree = "<group>";
 		};
 		42C786D9213CE85F0012188E /* Resources */ = {
@@ -543,14 +588,18 @@
 				42746AB220B4144900175AF0 /* RankManager8.m in Sources */,
 				42746A9220B3F70B00175AF0 /* DCLog.m in Sources */,
 				42746A9120B3F70B00175AF0 /* DCLogView.m in Sources */,
+				4269D596226C5CC4007E7CA2 /* CommonViewController.m in Sources */,
 				42C787A4213CE85F0012188E /* Person.m in Sources */,
+				4269D5A3226C6189007E7CA2 /* GeneralAlgorithmVC.m in Sources */,
 				42746AB520B4168100175AF0 /* RankManager1.m in Sources */,
+				4269D593226C577C007E7CA2 /* GeneralDataStructureVC.m in Sources */,
 				42746AA320B40F6B00175AF0 /* RankManager3.m in Sources */,
 				42C787A7213CE85F0012188E /* LoopQueue.m in Sources */,
 				42C787AA213CE85F0012188E /* ArrayStack.m in Sources */,
 				42746AA920B4123D00175AF0 /* RankManager5.m in Sources */,
 				42746AAC20B412AD00175AF0 /* RankManager6.m in Sources */,
 				42C787A8213CE85F0012188E /* ArrayQueue.m in Sources */,
+				4269D59F226C5D9E007E7CA2 /* UIView+LayoutMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
