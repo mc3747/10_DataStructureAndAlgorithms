@@ -14,7 +14,12 @@ class Stack {
   peek() {
     return this.stack[this.stack.length - 1];
   }
-
+  isEmpty(){
+      return this.stack.length === 0;
+  }
+  clear(){
+        this.stack = [];
+  }
   length() {
     return this.stack.length;
   }
@@ -24,6 +29,12 @@ class Stack {
   }
 }
 
+function reduce(a,b){
+  console.log("调用了fun1的reduce方法");
+  console.log(a-b);
+}
+
+module.exports = {Stack,reduce};
 const stack = new Stack();
 stack.push(1);
 stack.push(2);
