@@ -1,4 +1,5 @@
-class Stack {
+//思路1：
+class Stack1 {
 	constructor() {
 		this.items = [];
 		this.minIndexStack = [];
@@ -8,7 +9,7 @@ class Stack {
 		this.items.push(element);
 		let minLen = this.minIndexStack.length;
 		let minItemIndex = this.minIndexStack[minLen - 1];
-		if(minLen === 0 || this.items[minItemIndex] > item) {
+		if(minLen === 0 || this.items[minItemIndex] > element) {
 			this.minIndexStack.push(this.items.length - 1);
 		} else {
 			this.minIndexStack.push(minItemIndex);
@@ -31,5 +32,44 @@ class Stack {
 	
 	// 省略其它方法
 }
+//思路2：利用辅助数组
+class Stack2 {
+	constructor (){
+		this.items = [] // 数据栈
+		this.arr = []   // 辅助栈
+	}
+	push( element ){
+		this.items.push(element)
+		let min = Math.min(...this.items)
+		this.arr.push( min === element ? this.size() - 1 : 0)
+	}
+	pop(){
+		this.arr.pop()
+		return this.items.pop()
+	}
+	peek(){
+		return this.items[this.items.length - 1]
+	}
+	isEmpty(){
+		return this.items.length === 1
+	}
+	clear(){
+		this.items = []
+	}
+	size(){
+		return this.items.length
+	}
+	min (){
+		let last = this.arr[this.arr.length - 1]
+		return this.items[last]
+	}
+}
 
-let stack = new Stack();
+//2种思路获取
+let stack = new Stack1();
+stack.push(3);
+console.log('After push 3, Min item is', stack.min());
+stack.push(4);
+console.log('After push 4, Min item is', stack.min());
+stack.push(2);
+console.log('After push 2, Min item is', stack.min());
