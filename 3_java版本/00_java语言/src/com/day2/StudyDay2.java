@@ -7,7 +7,8 @@ public class StudyDay2 {
 		charDemo();
 		stringDemo();
 		arrayDemo();
-		methodDemo(11,12,13);
+		methodDemo(11, 12, 13);
+		printDemo();
 	}
 
 //1️⃣数字
@@ -60,14 +61,14 @@ public class StudyDay2 {
 	}
 
 //4️⃣️⃣数组
-	//元素存储在堆空间
+	// 元素存储在堆空间
 	public static void arrayDemo() {
 		char[] arr1 = { '1', '2', '3' };
 		System.out.println(arr1);
 //	   ⚠️ 数组️名称 输出的是对象的哈希值
 		int[] arr2 = { 1, 2, 3 };
 		System.out.println(arr2);
-		
+
 //		数组的遍历
 		for (int i : arr2) {
 			System.out.println(i);
@@ -75,11 +76,26 @@ public class StudyDay2 {
 	}
 
 //5️⃣️️方法
-	//方法可重载，根据参数的类型
-	//可变参数，必须传同类型的
+	// 1，可变参数，必须传同类型的
+	// 2，可变参数，必须是最后一个参数，防止歧义
+	// 3，基本类型：值传递；引用类型（数组和对象）：地址传递
+	// 4，方法签名：方法名 + 参数类型，不包括返回值，必须唯一
+	// 5，方法可重载，方法名相同，方法签名不同（参数个数，参数类型不同）
+	
 	public static void methodDemo(int ...numbers) {
 		for (int i : numbers) {
 			System.out.println(i);
 		}
+	}
+	
+//6️⃣打印
+	public static void printDemo() {
+		String name  = "Tom";	
+		int age  = 20;
+//	方式1：用+，不直观
+		System.out.println("my name is"+ name+",age is"+age);
+//	方式2：用printf，利用格式化，%n相当于回车
+		System.out.printf("my name is %s,age is %d", name,age);
+		
 	}
 }
