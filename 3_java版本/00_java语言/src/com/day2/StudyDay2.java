@@ -81,21 +81,21 @@ public class StudyDay2 {
 	// 3，基本类型：值传递；引用类型（数组和对象）：地址传递
 	// 4，方法签名：方法名 + 参数类型，不包括返回值，必须唯一
 	// 5，方法可重载，方法名相同，方法签名不同（参数个数，参数类型不同）
-	
-	public static void methodDemo(int ...numbers) {
+
+	public static void methodDemo(int... numbers) {
 		for (int i : numbers) {
 			System.out.println(i);
 		}
 	}
-	
+
 //6️⃣打印
 	public static void printDemo() {
-		String name  = "Tom";	
-		int age  = 20;
+		String name = "Tom";
+		int age = 20;
 //	方式1：用+，不直观
-		System.out.println("my name is"+ name+",age is"+age);
+		System.out.println("my name is" + name + ",age is" + age);
 //	方式2：用printf，利用格式化，%n相当于回车
-		System.out.printf("my name is %s,age is %d", name,age);
-		
+		System.out.printf("my name is %s,age is %d", name, age);
+
 	}
 }

@@ -1,4 +1,4 @@
-package com.mc;
+package com.day1;
 
 public class secondClass {
 
