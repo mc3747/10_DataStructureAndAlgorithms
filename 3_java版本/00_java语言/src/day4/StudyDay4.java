@@ -1,7 +1,7 @@
 package day4;
 
 import day4.*;
-//import day4.model.Cat;
+import day4.model.Cat;
 
 
 public class StudyDay4 {
