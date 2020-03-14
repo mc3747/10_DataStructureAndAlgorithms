@@ -1,5 +1,5 @@
 package day6;
-
+//继承的例子
 public class StudyDay6_2 {
     public static void main(String[] args) {
         MessageImpl ims = new MessageImpl("帅！") ;

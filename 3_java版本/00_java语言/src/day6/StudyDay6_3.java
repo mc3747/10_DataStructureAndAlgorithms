@@ -1,5 +1,5 @@
 package day6;
-
+//接口的例子
 //接口
 interface Eatable {
 	default void eat(String name) {

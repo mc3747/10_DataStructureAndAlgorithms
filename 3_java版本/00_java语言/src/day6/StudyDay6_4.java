@@ -1,4 +1,5 @@
 package day6;
+//静态方法的例子
 //接口定义静态方法1
 interface Eating {
 	static void eat(String name) {
