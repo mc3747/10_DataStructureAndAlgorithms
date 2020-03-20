@@ -1,0 +1,6 @@
+1，常用的语言对比：http://hyperpolyglot.org
+
+2，语言排名：
+	tiobe：https://www.tiobe.com/tiobe-index/
+	github：https://github.com/benfred/github-analysis/#inferring-languages
+	Stack Overflow的年报：https://insights.stackoverflow.com/survey/2018/#technology
