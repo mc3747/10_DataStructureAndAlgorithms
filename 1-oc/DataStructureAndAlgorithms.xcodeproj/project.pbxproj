@@ -198,20 +198,6 @@
 			path = "1,数据结构和算法分析";
 			sourceTree = "<group>";
 		};
-		4269D58F226C5358007E7CA2 /* 3,C语言数据结构和算法 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "3,C语言数据结构和算法";
-			sourceTree = "<group>";
-		};
-		4269D590226C5367007E7CA2 /* 4,C++数据结构和算法 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "4,C++数据结构和算法";
-			sourceTree = "<group>";
-		};
 		4269D597226C5D7C007E7CA2 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,8 +254,6 @@
 				4269D597226C5D7C007E7CA2 /* Common */,
 				4269D58E226C533B007E7CA2 /* 1,数据结构和算法分析 */,
 				42C785BF213CE85E0012188E /* 2,OC数据结构和算法 */,
-				4269D590226C5367007E7CA2 /* 4,C++数据结构和算法 */,
-				4269D58F226C5358007E7CA2 /* 3,C语言数据结构和算法 */,
 				42746A4A20B3A89C00175AF0 /* AppDelegate.h */,
 				42746A4B20B3A89C00175AF0 /* AppDelegate.m */,
 				42746A7F20B3AAA600175AF0 /* CommonCollectionViewVC.h */,
