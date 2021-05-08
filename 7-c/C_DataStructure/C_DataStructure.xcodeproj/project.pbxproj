@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B646D9826452854008CD56D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B646D9726452854008CD56D /* main.c */; };
 		4B646DAA2645297B008CD56D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B646DA92645297B008CD56D /* main.c */; };
+		4B646DB326452F66008CD56D /* sort1.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B646DB126452F66008CD56D /* sort1.c */; };
 		4B80367726451D5D00295D6B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B80367626451D5D00295D6B /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		4B646D9726452854008CD56D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		4B646DA72645297B008CD56D /* SortDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B646DA92645297B008CD56D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4B646DB126452F66008CD56D /* sort1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sort1.c; sourceTree = "<group>"; };
+		4B646DB226452F66008CD56D /* sort1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sort1.h; sourceTree = "<group>"; };
 		4B80367326451D5D00295D6B /* C_DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B80367626451D5D00295D6B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		4B80368026451DDA00295D6B /* HashSearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HashSearch.c; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				4B80368326451DDA00295D6B /* Sort */,
+				4B646DB126452F66008CD56D /* sort1.c */,
+				4B646DB226452F66008CD56D /* sort1.h */,
 				4B646DA92645297B008CD56D /* main.c */,
 			);
 			path = SortDemo;
@@ -317,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B646DAA2645297B008CD56D /* main.c in Sources */,
+				4B646DB326452F66008CD56D /* sort1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
